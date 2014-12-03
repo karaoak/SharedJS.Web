@@ -1,4 +1,4 @@
-var User = require('core/models/User');
+var User = require('core/models/humans/User');
 var user = new User();
 
 var Cat = require('core/models/animals/Cat');
