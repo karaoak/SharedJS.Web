@@ -1,0 +1,15 @@
+## OS files
+.DS_Store
+
+## IntelliJ
+.idea
+
+## Grunt / Node
+node_modules/*
+npm-debug.log
+
+## MDNQ symbolic links
+app/src/core
+
+## Project specific
+dist
