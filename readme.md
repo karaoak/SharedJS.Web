@@ -1,14 +1,14 @@
-# Hybrid Web App
+# SharedJS Web App
 CommonJS Browserify HTML5 webbrowser client.
 	
 ###Setup insctructions
-Apart from the npm dependencies, this project has a dependancy on the [Hybrid-Core](https://github.com/karaoak/SharedJS.hybrid-core) shared JS codebase project to be symlinked inside the app/lib/core directory of this project.
+Apart from the npm dependencies, this project has a dependancy on the [SharedJS.Core](https://github.com/karaoak/SharedJS.Core) shared JS codebase project to be symlinked inside the app/lib/core directory of this project.
 
 So setting up this project would require the following:
 
 	$ npm install
 	$ cd app/src
-	$ ln -s [hybrid-core]/src core (typically: $ ln -s ../../../core/src core)
+	$ ln -s [sharedjs-core]/src core (typically: $ ln -s ../../../core/src core)
 	
 ###Build instructions
 Use the repository grunt build task to run this demo web app.
@@ -21,6 +21,10 @@ Please find a list of the main libraries and modules used in this project:
 
 * [CommonJS](http://wiki.commonjs.org/wiki/CommonJS)
 * [Browserify](http://browserify.org/)
+* [Remapify](https://github.com/joeybaker/remapify)
+
+For more information see my slides on [Speakerdeck](https://speakerdeck.com/karaoak/shared-web-plus-ti-app-javascript-codebase)
+
 	
 
 	
